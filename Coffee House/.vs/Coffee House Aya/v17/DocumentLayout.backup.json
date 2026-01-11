@@ -1,0 +1,741 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\vs project\\Coffee House Aya\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\menus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\menus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\coffees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\coffees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\sweets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\sweets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\coffees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\coffees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\models\\sweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\models\\sweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\models\\coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\models\\coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\sweets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\sweets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\controllers\\sweetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\controllers\\sweetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\coffees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\coffees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\coffees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\coffees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\coffees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\coffees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\menus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\menus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\menus\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\menus\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\menus\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\menus\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\roles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\roles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\roles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\roles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\roles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\roles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\roles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\roles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\sweets\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\sweets\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\sweets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\sweets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\views\\sweets\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\views\\sweets\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\controllers\\coffeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\controllers\\coffeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Migrations\\20250609212420_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Coffee House Aya\\Migrations\\20250609212420_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Migrations\\20250609212339_Coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Coffee House Aya\\Migrations\\20250609212339_Coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\controllers\\menuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\controllers\\menuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Migrations\\20250609201518_Coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Coffee House Aya\\Migrations\\20250609201518_Coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|d:\\vs project\\coffee house aya\\coffee house aya\\migrations\\20250609212803_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C3D3E-B725-4458-ACD6-B7C56185F60A}|Coffee House Aya\\Coffee House Aya.csproj|solutionrelative:coffee house aya\\migrations\\20250609212803_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADQBAAAAAAAAAAAAAFQBAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T12:34:57.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_UserLayout.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Shared\\_UserLayout.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Shared\\_UserLayout.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Shared\\_UserLayout.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Shared\\_UserLayout.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T12:05:48.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Menus\\Index.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Menus\\Index.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Menus\\Index.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Menus\\Index.cshtml",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAIwI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T20:25:23.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Coffees\\Index.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Coffees\\Index.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Coffees\\Index.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Coffees\\Index.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwFIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T21:29:19.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Models\\Menu.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Models\\Menu.cs",
+              "RelativeToolTip": "Coffee House Aya\\Models\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:08:35.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Users\\Login.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Users\\Login.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Users\\Login.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Users\\Login.cshtml",
+              "ViewState": "AgIAADYBAAAAAAAAAAAAABIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T20:52:34.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Program.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Program.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Program.cs",
+              "RelativeToolTip": "Coffee House Aya\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:13:04.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAACwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T21:51:02.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T23:25:40.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Sweets\\Index.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Sweets\\Index.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Sweets\\Index.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Sweets\\Index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T22:00:36.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T20:30:57.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Users\\Index.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T20:30:38.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Coffees\\Create.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Coffees\\Create.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Coffees\\Create.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Coffees\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T21:47:24.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Models\\User.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Models\\User.cs",
+              "RelativeToolTip": "Coffee House Aya\\Models\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T19:50:17.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Models\\Role.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Models\\Role.cs",
+              "RelativeToolTip": "Coffee House Aya\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T19:51:46.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Roles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Roles\\Index.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Roles\\Index.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Roles\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T20:44:31.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Coffee House Aya\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAA7wNYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:16:08.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T21:58:53.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Coffee House Aya\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:12:01.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Sweet.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Models\\Sweet.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Models\\Sweet.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Models\\Sweet.cs",
+              "RelativeToolTip": "Coffee House Aya\\Models\\Sweet.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:02:30.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Coffee.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Models\\Coffee.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Models\\Coffee.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Models\\Coffee.cs",
+              "RelativeToolTip": "Coffee House Aya\\Models\\Coffee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T19:54:42.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Users\\Create.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T20:43:03.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Coffees\\Details.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Coffees\\Details.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Coffees\\Details.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Coffees\\Details.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T22:09:51.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SweetsController.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Controllers\\SweetsController.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Controllers\\SweetsController.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Controllers\\SweetsController.cs",
+              "RelativeToolTip": "Coffee House Aya\\Controllers\\SweetsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:25:38.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Sweets\\Create.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Sweets\\Create.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Sweets\\Create.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Sweets\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T22:49:32.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Menus\\Create.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Menus\\Create.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Menus\\Create.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Menus\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T22:08:48.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Users\\Details.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T21:56:59.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Coffees\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Coffees\\Delete.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Coffees\\Delete.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Coffees\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T22:09:59.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Menus\\Details.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Menus\\Details.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Menus\\Details.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Menus\\Details.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T22:08:43.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Menus\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Menus\\Edit.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Menus\\Edit.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Menus\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T22:08:30.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Roles\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Roles\\Delete.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Roles\\Delete.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Roles\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T22:07:19.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Roles\\Details.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Roles\\Details.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Roles\\Details.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Roles\\Details.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T22:07:15.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Roles\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Roles\\Edit.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Roles\\Edit.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Roles\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T22:07:08.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Sweets\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Sweets\\Delete.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Sweets\\Delete.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Sweets\\Delete.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T22:05:30.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Sweets\\Details.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Sweets\\Details.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Sweets\\Details.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Sweets\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T22:04:22.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Coffees\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Coffees\\Edit.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Coffees\\Edit.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Coffees\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T21:34:41.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Sweets\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Sweets\\Edit.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Sweets\\Edit.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Sweets\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T22:03:24.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Roles\\Create.cshtml",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Views\\Roles\\Create.cshtml",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Views\\Roles\\Create.cshtml",
+              "RelativeToolTip": "Coffee House Aya\\Views\\Roles\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T20:44:39.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20250609212803_init.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Migrations\\20250609212803_init.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Migrations\\20250609212803_init.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Migrations\\20250609212803_init.cs",
+              "RelativeToolTip": "Coffee House Aya\\Migrations\\20250609212803_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:28:03.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20250609201518_Coffee.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Migrations\\20250609201518_Coffee.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Migrations\\20250609201518_Coffee.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Migrations\\20250609201518_Coffee.cs",
+              "RelativeToolTip": "Coffee House Aya\\Migrations\\20250609201518_Coffee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:15:19.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CoffeesController.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Controllers\\CoffeesController.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Controllers\\CoffeesController.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Controllers\\CoffeesController.cs",
+              "RelativeToolTip": "Coffee House Aya\\Controllers\\CoffeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:29:15.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250609212339_Coffee.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Migrations\\20250609212339_Coffee.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Migrations\\20250609212339_Coffee.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Migrations\\20250609212339_Coffee.cs",
+              "RelativeToolTip": "Coffee House Aya\\Migrations\\20250609212339_Coffee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:23:40.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20250609212420_test.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Migrations\\20250609212420_test.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Migrations\\20250609212420_test.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Migrations\\20250609212420_test.cs",
+              "RelativeToolTip": "Coffee House Aya\\Migrations\\20250609212420_test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:24:20.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Controllers\\RolesController.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Coffee House Aya\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAEwDAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:17:39.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MenusController.cs",
+              "DocumentMoniker": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Controllers\\MenusController.cs",
+              "RelativeDocumentMoniker": "Coffee House Aya\\Controllers\\MenusController.cs",
+              "ToolTip": "D:\\vs project\\Coffee House Aya\\Coffee House Aya\\Controllers\\MenusController.cs",
+              "RelativeToolTip": "Coffee House Aya\\Controllers\\MenusController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:17:09.376Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

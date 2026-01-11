@@ -1,0 +1,143 @@
+﻿@model IEnumerable<Coffee_House_Aya.Models.Menu>
+
+@{
+    ViewData["Title"] = "Menu";
+    var lastItem = Model.LastOrDefault();
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+<style>
+    body {
+        background: linear-gradient(to right, #f9f4f1, #fffefb);
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .glass-jumbotron {
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 1rem;
+        padding: 3rem;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: #5c3a21;
+    }
+
+    .btn-glow {
+        background-color: #7b4b2a;
+        color: #fff;
+        border: none;
+        padding: 0.6rem 1.2rem;
+        border-radius: 30px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 15px rgba(123, 75, 42, 0.4);
+    }
+
+        .btn-glow:hover {
+            background-color: #5c3a21;
+            transform: scale(1.05);
+        }
+
+    .menu-card {
+        background: #fffdf7;
+        border-radius: 1rem;
+        box-shadow: 0 8px 20px rgba(90, 60, 30, 0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .menu-card:hover {
+            transform: scale(1.015);
+            box-shadow: 0 12px 25px rgba(90, 60, 30, 0.15);
+        }
+
+    .menu-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .card-body h5 {
+        color: #5c3a21;
+        font-weight: 600;
+    }
+
+    .card-body p {
+        font-size: 0.95rem;
+        color: #7b4b2a;
+    }
+
+    .alert-custom {
+        background-color: #f4e8d6;
+        border-left: 5px solid #7b4b2a;
+        color: #5c3a21;
+        font-weight: 500;
+    }
+
+    .action-btns a {
+        margin: 0 5px;
+        font-size: 0.9rem;
+    }
+</style>
+
+<!-- Hero Section -->
+<div class="container my-5">
+    <div class="glass-jumbotron text-center">
+        <h1 class="display-5 fw-bold">Explore Our Signature Pairings</h1>
+        @if (lastItem != null)
+        {
+            <p class="lead mt-3">
+                Latest pairing: <strong>@lastItem.Sweet.SweetName</strong> with <strong>@lastItem.Coffee.CofffeName</strong> ☕🍰
+            </p>
+        }
+        <button class="btn btn-glow mt-3" onclick="document.getElementById('menu-section').scrollIntoView({ behavior: 'smooth' })">
+            View Menu
+        </button>
+    </div>
+</div>
+
+<!-- Create Button -->
+<div class="container mb-4 d-flex justify-content-end">
+    <a asp-action="Create" class="btn btn-glow">
+        <i class="bi bi-plus-circle me-1"></i> Create New
+    </a>
+</div>
+
+<!-- Menu Cards -->
+<div id="menu-section" class="container mb-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card menu-card h-100">
+                    <img src="~/images/Coffee/@item.Coffee.UImage" alt="@item.Coffee.CofffeName" class="menu-img" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">@item.Coffee.CofffeName</h5>
+                        <p><i class="bi bi-cup-hot-fill me-1"></i>Perfect with <strong>@item.Sweet.SweetName</strong></p>
+                        <img src="~/images/Sweets/@item.Sweet.SImage" width="60" height="60" class="rounded-circle border shadow-sm mt-2" />
+                        <div class="action-btns mt-3 d-flex justify-content-center">
+                            <!--<a asp-action="Edit" asp-route-id="@item.MenuId" class="btn btn-sm btn-outline-info rounded-pill px-3">
+                                <i class="bi bi-pencil-square me-1"></i>Edit
+                            </a>
+                            <a asp-action="Details" asp-route-id="@item.MenuId" class="btn btn-sm btn-outline-secondary rounded-pill px-3">
+                                <i class="bi bi-eye me-1"></i>Details
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.MenuId" class="btn btn-sm btn-outline-danger rounded-pill px-3">
+                                <i class="bi bi-trash me-1"></i>Delete
+                            </a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Total Summary -->
+<div class="container">
+    <div class="alert alert-custom mt-4">
+        Total Items: <strong>@Model.Count()</strong> | Last Added: <strong>@lastItem?.Sweet.SweetName</strong> & <strong>@lastItem?.Coffee.CofffeName</strong>
+    </div>
+</div>

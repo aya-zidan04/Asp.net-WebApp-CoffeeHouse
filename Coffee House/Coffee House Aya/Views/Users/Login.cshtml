@@ -1,0 +1,359 @@
+﻿@model Coffee_House_Aya.Models.User
+@{
+    ViewData["Title"] = "Login";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+<style>
+    body {
+        background: linear-gradient(135deg, #f9f4f1 0%, #fffefb 50%, #f5f0e8 100%);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        min-height: 100vh;
+        position: relative;
+        overflow-x: hidden;
+    }
+
+        /* Background Coffee Beans Pattern */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: radial-gradient(circle at 20% 20%, rgba(212, 165, 116, 0.1) 2px, transparent 2px), radial-gradient(circle at 80% 80%, rgba(193, 150, 96, 0.08) 1px, transparent 1px), radial-gradient(circle at 40% 70%, rgba(123, 75, 42, 0.05) 1.5px, transparent 1.5px);
+            background-size: 60px 60px, 40px 40px, 80px 80px;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+    .login-container {
+        min-height: 100vh;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 1rem;
+    }
+
+    .login-card {
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 2rem;
+        padding: 3rem 2.5rem;
+        box-shadow: 0 20px 40px rgba(92, 58, 33, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(212, 165, 116, 0.2);
+        width: 100%;
+        max-width: 450px;
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .login-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px rgba(92, 58, 33, 0.15), 0 0 0 1px rgba(255, 255, 255, 0.3);
+        }
+
+        .login-card::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #d4a574, #c19660, #d4a574);
+            border-radius: 2rem;
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .login-card:hover::before {
+            opacity: 0.1;
+        }
+
+    .login-title {
+        color: #5c3a21;
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        position: relative;
+    }
+
+        .login-title::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(45deg, #d4a574, #c19660);
+            border-radius: 2px;
+        }
+
+    .coffee-icon {
+        font-size: 2.5rem;
+        color: #d4a574;
+        margin-bottom: 1rem;
+        display: block;
+        text-align: center;
+        animation: steamAnimation 2s ease-in-out infinite;
+    }
+
+    keyframes steamAnimation {
+        0%, 100%
+
+    {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+
+    }
+
+    .form-label {
+        color: #5c3a21;
+        font-weight: 600;
+        margin-bottom: 0.7rem;
+        font-size: 0.95rem;
+    }
+
+    .form-control {
+        border: 2px solid rgba(212, 165, 116, 0.3);
+        border-radius: 1rem;
+        padding: 0.9rem 1.2rem;
+        font-size: 1rem;
+        background: rgba(255, 255, 255, 0.8);
+        transition: all 0.3s ease;
+        color: #5c3a21;
+    }
+
+        .form-control:focus {
+            border-color: #d4a574;
+            box-shadow: 0 0 0 0.2rem rgba(212, 165, 116, 0.25);
+            background: rgba(255, 255, 255, 0.95);
+            transform: translateY(-1px);
+        }
+
+        .form-control::placeholder {
+            color: rgba(123, 75, 42, 0.6);
+        }
+
+    .btn-coffee-login {
+        background: linear-gradient(45deg, #d4a574, #c19660);
+        border: none;
+        color: white;
+        padding: 1rem 2rem;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 1.1rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(212, 165, 116, 0.4);
+        position: relative;
+        overflow: hidden;
+    }
+
+        .btn-coffee-login::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .btn-coffee-login:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+
+        .btn-coffee-login:hover {
+            background: linear-gradient(45deg, #c19660, #a67c4a);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(212, 165, 116, 0.6);
+            color: white;
+        }
+
+        .btn-coffee-login:active {
+            transform: translateY(0px);
+        }
+
+    .alert-danger {
+        background: rgba(220, 53, 69, 0.1);
+        border: 1px solid rgba(220, 53, 69, 0.3);
+        border-radius: 1rem;
+        color: #842029;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .text-danger {
+        color: #dc3545 !important;
+        font-size: 0.875rem;
+        margin-top: 0.5rem;
+        display: block;
+    }
+
+    .input-group {
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+
+    .input-icon {
+        position: absolute;
+        right: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #d4a574;
+        font-size: 1.1rem;
+        z-index: 5;
+        pointer-events: none;
+    }
+
+    .form-control-with-icon {
+        padding-right: 3rem;
+    }
+
+    /* Floating animation for background elements */
+    .floating-element {
+        position: absolute;
+        pointer-events: none;
+        opacity: 0.1;
+        animation: float 6s ease-in-out infinite;
+    }
+
+        .floating-element:nth-child(1) {
+            top: 10%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .floating-element:nth-child(2) {
+            top: 20%;
+            right: 15%;
+            animation-delay: 2s;
+        }
+
+        .floating-element:nth-child(3) {
+            bottom: 20%;
+            left: 20%;
+            animation-delay: 4s;
+        }
+
+    keyframes float {
+        0%, 100%
+
+    {
+        transform: translateY(0px) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-20px) rotate(180deg);
+    }
+
+    }
+
+    /* Responsive adjustments */
+    media (max-width: 768px) {
+        .login-card
+
+    {
+        margin: 1rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .login-title {
+        font-size: 1.5rem;
+    }
+
+    .coffee-icon {
+        font-size: 2rem;
+    }
+
+    }
+
+    /* Additional visual enhancements */
+    .mb-3 {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .d-grid {
+        margin-top: 2rem;
+    }
+</style>
+
+<div class="login-container">
+    <!-- Floating background elements -->
+    <div class="floating-element">
+        <i class="bi bi-cup-hot" style="font-size: 3rem; color: #d4a574;"></i>
+    </div>
+    <div class="floating-element">
+        <i class="bi bi-heart-fill" style="font-size: 2rem; color: #c19660;"></i>
+    </div>
+    <div class="floating-element">
+        <i class="bi bi-stars" style="font-size: 2.5rem; color: #d4a574;"></i>
+    </div>
+
+    <div class="container">
+        <div class="container d-flex justify-content-center">
+            <div class="login-card">
+                <div class="text-center">
+                    <i class="bi bi-cup-hot-fill coffee-icon"></i>
+                    <h3 class="login-title">Coffee House Login</h3>
+                </div>
+
+                <form asp-action="Login" method="post">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                    <div class="input-group">
+                        <label asp-for="Email" class="form-label">
+                            <i class="bi bi-envelope me-2"></i>Email Address
+                        </label>
+                        <input asp-for="Email" class="form-control form-control-with-icon" placeholder="Enter your email address" />
+                        <i class="bi bi-at input-icon"></i>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="input-group">
+                        <label asp-for="password" class="form-label">
+                            <i class="bi bi-lock me-2"></i>Password
+                        </label>
+                        <input asp-for="password" type="password" class="form-control form-control-with-icon" placeholder="Enter your password" />
+                        <i class="bi bi-key input-icon"></i>
+                        <span asp-validation-for="password" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-coffee-login">
+                            <i class="bi bi-box-arrow-in-right me-2"></i>
+                            Login to Coffee House
+                        </button>
+                    </div>
+                </form>
+
+                <div class="text-center mt-4">
+                    <p class="small" style="color: #7b4b2a;">
+                        Welcome back! Ready for your perfect cup? ☕
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

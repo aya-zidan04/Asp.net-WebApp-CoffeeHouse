@@ -1,0 +1,134 @@
+﻿@model IEnumerable<Coffee_House_Aya.Models.User>
+@{
+    ViewData["Title"] = "User Profiles";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+<style>
+    body {
+        background: #f9f4ef;
+    }
+
+    .user-container {
+        padding: 3rem 0;
+    }
+
+    .profile-card {
+        background: rgba(255, 255, 255, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 1.5rem;
+        box-shadow: 0 8px 20px rgba(90, 60, 30, 0.2);
+        backdrop-filter: blur(8px);
+        padding: 1.5rem;
+        transition: transform 0.3s ease;
+        color: #3a2415;
+    }
+
+        .profile-card:hover {
+            transform: scale(1.02);
+        }
+
+    .profile-img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #d6bfa9;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin-bottom: 0.75rem;
+    }
+
+    .card-title {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #5c3a21;
+    }
+
+    .card-subtitle {
+        font-size: 0.95rem;
+        color: #7b4b2a;
+        margin-bottom: 0.75rem;
+    }
+
+    .badge-role {
+        background-color: #9f7050;
+        color: white;
+        font-size: 0.85rem;
+        padding: 6px 12px;
+        border-radius: 10px;
+        display: inline-block;
+        margin-top: 0.5rem;
+    }
+
+    .profile-actions .btn {
+        margin: 0 0.3rem;
+        border-radius: 20px;
+        padding: 0.3rem 0.9rem;
+        font-size: 0.85rem;
+        transition: all 0.3s ease;
+    }
+
+    .btn-outline-cream {
+        border: 1px solid #d6bfa9;
+        color: #5c3a21;
+    }
+
+        .btn-outline-cream:hover {
+            background-color: #d6bfa9;
+            color: #3a2415;
+        }
+
+    .summary-box {
+        background: #f4e8d6;
+        padding: 1rem 1.5rem;
+        border-left: 5px solid #9f7050;
+        border-radius: 10px;
+        margin-top: 2rem;
+    }
+
+        .summary-box p {
+            margin: 0.3rem 0;
+            font-weight: 500;
+        }
+</style>
+
+<div class="container user-container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold text-uppercase" style="color: #5c3a21;">
+            <i class="bi bi-people-fill me-2"></i>User Profiles
+        </h2>
+        <a asp-action="Create" class="btn btn-outline-cream">
+            <i class="bi bi-person-plus me-1"></i> Create New
+        </a>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        @foreach (var user in Model)
+        {
+            <div class="col">
+                <div class="profile-card text-center">
+                    <img src="~/images/@user.UImage" alt="@user.Username" class="profile-img" />
+                    <div class="card-title">@user.Username</div>
+                    <div class="card-subtitle">@user.Email</div>
+                    <span class="badge-role">@user.Role?.RoleName</span>
+
+                    <p class="mt-3 mb-1"><strong>Gender:</strong> @user.Gender</p>
+                    <p class="mb-1"><strong>Age:</strong> @user.Age</p>
+
+                    <div class="profile-actions d-flex justify-content-center mt-3">
+                        <a asp-action="Details" asp-route-id="@user.UserId" class="btn btn-outline-warning btn-sm">
+                            <i class="bi bi-eye"></i> Details
+                        </a>
+                        <a asp-action="Edit" asp-route-id="@user.UserId" class="btn btn-outline-primary btn-sm">
+                            <i class="bi bi-pencil-square"></i> Edit
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@user.UserId" class="btn btn-outline-danger btn-sm">
+                            <i class="bi bi-trash"></i> Delete
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
