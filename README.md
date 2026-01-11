@@ -42,3 +42,20 @@ The system allows users to browse the menu, place orders, and administrators to 
 ---
 
 ## 🖥 System Screenshots
+### 🏠 Home Page
+![Home](imgs/01.png)
+
+### 📋 Menu Page
+![Menu](imgs/02.png)
+
+### 🔐 Login Page
+![Login](imgs/03.png)
+
+### 👤 User Dashboard
+![User Dashboard](imgs/04.png)
+
+### 🛠 Admin Dashboard
+![Admin Dashboard](imgs/05.png)
+
+### 🗄 Database / Management
+![Database](imgs/06.png)
